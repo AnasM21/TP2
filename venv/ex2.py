@@ -18,7 +18,6 @@ print(txt)
 """def ispalindrome(s):
     return s == s[::-1]
 
-
 # skip
 res = ispalindrome(c)"""
 """
@@ -28,8 +27,6 @@ if txt == c:
 else:
     print("chaine  non palindrome")
 """
-
-
 # question 5
 def compteur_mots(s):
     return len(c.split())
@@ -39,12 +36,10 @@ print("le nbr de mots est", compteur_mots(c))
 
 # questions 6
 
-
 def nb_occurence(t):
     nbocc = Counter(c)
 
     return nbocc
-
 
 print("Le nombre d'occurence de chaque caractere est :\n "
       + str(nb_occurence(c)))
