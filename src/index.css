@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-  margin: 0;
-  font-family: "Quicksand";
-  color: #333;
+    color: rgba(0,0,0,.8);
+    font-family: Roboto,Helvetica,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    -ms-font-feature-settings: "kern","liga","clig","calt";
+    font-feature-settings: "kern","liga","clig","calt";
+    
+  
 }
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: width 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  background-color: transparent;
+  
 }
 .navbar h1 {
-  color: #f1356d;
+  color:whitesmoke;
+  background-color: transparent;
 }
 .navbar .links {
-  margin-left: auto;
+  margin-left:20%;
+  
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color: rgb(109, 109, 109);
+  background-color: transparent;
 }
 .navbar a:hover {
   color: #f1356d;
@@ -46,4 +59,25 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+.introWrapper{
+  display:block;
+}
+.introWrapper h1 {
+  padding: 0;
+    margin: 0 0 1.45rem;
+    color: inherit;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+}
+.introWrapper p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: gray;
+    margin-bottom: 2rem;
 }
